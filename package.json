@@ -1,9 +1,19 @@
 {
   "name": "photo-trimmer",
   "version": "1.0.0",
+  "description": "Easy photo trimming GUI tool",
   "bin": {
     "photo-trimmer": "./index.js"
   },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "author": "Fuji Haruka",
+  "repository": "FujiHaruka/photo-trimmer",
+  "license": "MIT",
   "dependencies": {
     "asleep": "^1.0.3",
     "electron": "^1.7.9",
@@ -15,12 +25,6 @@
     "react-region-select": "^2.2.0",
     "react-router-dom": "^4.2.2",
     "the-components": "^3.1.6"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "react-scripts": "^1.0.17"
