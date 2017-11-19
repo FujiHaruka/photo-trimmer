@@ -1,0 +1,21 @@
+.App-body: {
+  padding: 16px;
+  height: 100%;
+}
+
+.App-info.the-info {
+  padding: 16px 0 8px;
+}
+
+.App-image {
+  max-width: 80%;
+  max-height: 100%;
+  margin: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.the-button.App-save-button {
+  position: absolute;
+}
